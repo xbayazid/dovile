@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap'); 
+
+body{
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+.flexible-container{
+    display: flex;
+    line-height: 2.5;
+    padding:  0% 10%;
+}
+
+.banner-info{
+    width: 600px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.half-width img{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.orange-background{
+    background-image: linear-gradient(rgb(230, 179, 196), rgb(238, 233, 233)
+    );
+    height: 50%;
+}
+
+.container-center{
+    margin-top: 3%;
+    padding: 0% 20%;
+    text-align: center;
+}
+
+.company-details{
+    /* box-shadow: 10px 10px 40px gray; */
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.company-details p{
+    text-align: justify;
+}
+
+.hover-button{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+}
+.company-details:hover{
+    /* background-color: rgb(230, 179, 196); */
+    box-shadow: 10px 10px 40px gray;
+    cursor: pointer;
+}
+
+.hover-button:hover{
+    background-color: black;
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(231, 151, 177);
+    padding-left: 20%;
+    padding-bottom: 3%;
+}
+
+.message-box{
+    width: 50%;
+    margin: 5% auto;
+}
